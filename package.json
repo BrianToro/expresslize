@@ -1,0 +1,33 @@
+{
+  "name": "expresslize",
+  "version": "1.0.1",
+  "description": "A simple and minimal functional boilerplate for Express and Sequelize ORM",
+  "main": "index.js",
+  "scripts": {
+    "start": "eslint --fix . && npx nodemon index.js",
+    "sequelize-skeleton": "npx sequelize init:models; npx sequelize init:config"
+  },
+  "keywords": ["express", "sequelize", "boilerplate", "node", "mysql", "@hapi"],
+  "author": "@jupitense",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "@hapi/joi": "^17.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-security": "^1.4.0",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.5",
+    "sequelize-cli": "^5.5.1"
+  }
+}
